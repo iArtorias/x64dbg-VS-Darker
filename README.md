@@ -8,3 +8,7 @@
 
 1. Copy the `VSDarker` folder to `%x64dbg_Path%/themes/`
 2. Run the debugger and select a new theme from the dropdown menu: `Options -> Theme`
+
+## Notes
+
+#### If you want to use the same font as shown on the preview picture, get it here: https://github.com/be5invis/Iosevka
