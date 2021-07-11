@@ -327,7 +327,8 @@ QPlainTextEdit
 
 QHeaderView::section
 {
-    color: white;
+    background-color: #2d2d30;
+    color: #dadada;
     padding-left: 4px;
     border: 1px solid #6c6c6c;
 }
@@ -372,7 +373,6 @@ QMainWindow::separator
 
 QMainWindow::separator:hover
 {
-
     background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #20b2aa, stop:0.5 #03a89e
     stop:1 #20b2aa);
     color: white;
@@ -381,10 +381,31 @@ QMainWindow::separator:hover
     spacing: 3px; /* spacing between items in the tool bar */
 }
 
+QToolBar {
+    border: 2px transparent #3e3e40;
+    font-weight: bold;
+}
+
 QToolBar::handle
 {
      spacing: 3px; /* spacing between items in the tool bar */
      background: url(./icons/handle.png);
+}
+
+QToolBar::handle:horizontal {
+    image: url(./icons/Hmovetoolbar.png);
+}
+
+QToolBar::handle:vertical {
+    image: url(./icons/Vmovetoolbar.png);
+}
+
+QToolBar::separator:horizontal {
+    image: url(./icons/Hsepartoolbar.png);
+}
+
+QToolBar::separator:vertical {
+    image: url(./icons/Vsepartoolbar.png);
 }
 
 QMenu::separator 
@@ -401,7 +422,7 @@ QProgressBar
 
 QProgressBar::chunk
 {
-    background-color: #4a8f47;
+    background-color: #06b025;
     width: 2.15px;
     margin: 0px;
 }
