@@ -1,10 +1,12 @@
 # 🔖 **x64dbg-VS-Darker**
 
-### A dark theme support for x64dbg, based on the work by [ThunderCls](https://github.com/ThunderCls/x64dbg_vs_dark)
-
-![x64dbg-VS-Darker](https://i.imgur.com/yXvY7sc.png)
-![x64dbg-VS-Darker](https://i.imgur.com/VdUHcFs.png)
-![x64dbg-VS-Darker](https://i.imgur.com/IYWnBAM.png)
+### A dark theme support for [x64dbg](https://github.com/x64dbg/x64dbg), based on the work by [ThunderCls](https://github.com/ThunderCls/x64dbg_vs_dark)
+##
+![x64dbg-VS-Darker](https://i.imgur.com/yA2JFvM.png)
+##
+![x64dbg-VS-Darker](https://i.imgur.com/LEotoJS.png)
+##
+![x64dbg-VS-Darker](https://i.imgur.com/5hEZTwu.png)
 
 ## Installation
 
@@ -13,4 +15,4 @@
 
 ##  Notes
 
-#### If you want to use the same font as shown on the preview picture, get it here: https://github.com/be5invis/Iosevka
+* If you want to use the same font as shown on the preview picture, get it here: https://github.com/be5invis/Iosevka
