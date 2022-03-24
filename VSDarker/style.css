@@ -105,7 +105,8 @@ QMenu
 
 QMenu::item
 {
-  background-color: #1b1b1c;
+    padding: 5px 30px 5px 30px;
+    margin: 2px;
 }
 
 QMenu::item:selected
@@ -115,8 +116,8 @@ QMenu::item:selected
 
 QWidget:disabled
 {
-    color: #2e2e30;
-    background-color: #4e4e50;
+    color: #e5e5e5;
+    background-color: #1b1b1b;
 }
 
 QAbstractItemView
@@ -429,7 +430,7 @@ QProgressBar::chunk
 
 QTabBar::tab {
     color: white;
-    border-bottom-style: none;
+    border-bottom: 2px solid #007acc;
     background-color: #007acc;
     padding-left: 10px;
     padding-right: 10px;
