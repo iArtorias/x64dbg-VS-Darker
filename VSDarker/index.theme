@@ -1,0 +1,9 @@
+[Icon Theme]
+Name=VSDarker
+Comment=Visual Studio dark theme
+Directories=icons
+Inherits=Default
+
+[icons]
+Size=16
+Type=Scalable
