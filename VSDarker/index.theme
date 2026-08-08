@@ -1,9 +1,13 @@
 [Icon Theme]
 Name=VSDarker
-Comment=Visual Studio dark theme
-Directories=icons
-Inherits=Default
+Comment=Visual Studio 2026 dark icon theme
+Directories=icons,icons32
+Inherits=Dark
 
 [icons]
 Size=16
-Type=Scalable
+Type=Fixed
+
+[icons32]
+Size=32
+Type=Fixed
